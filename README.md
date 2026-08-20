@@ -29,7 +29,7 @@ The production build is written to `dist/`. To inspect it locally, run `npm run 
 
 GitHub Actions builds and deploys the site to GitHub Pages whenever a change is pushed to the `main` branch. In the repository settings, configure **Pages → Source** to use **GitHub Actions**.
 
-The Vite base path is `/`, matching the root deployment at `https://jovan-tomasevic.github.io/`.
+The Vite base path is `/`, matching the root deployment at `https://reverseskydiver.github.io/`.
 
 ## Project structure
 
