@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Senior Backend Engineer specializing in Java, Spring Boot, distributed systems, event-driven architecture, Kafka, DDD, CQRS and Event Sourcing." />
+    <meta name="theme-color" content="#0a0d12" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jovan Tomašević — Senior Backend Engineer" />
+    <meta property="og:description" content="Senior Backend Engineer specializing in Java, Spring Boot, distributed systems, event-driven architecture, Kafka, DDD, CQRS and Event Sourcing." />
+    <meta property="og:url" content="https://jovan-tomasevic.github.io/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Jovan Tomašević — Senior Backend Engineer" />
+    <meta name="twitter:description" content="Architecture, distributed systems and enterprise platform modernization." />
+    <link rel="canonical" href="https://jovan-tomasevic.github.io/" />
+    <title>Jovan Tomašević — Senior Backend Engineer</title>
+    <script>
+      (() => {
+        const saved = localStorage.getItem('theme');
+        const theme = saved || 'dark';
+        document.documentElement.dataset.theme = theme === 'system'
+          ? (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark')
+          : theme;
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
