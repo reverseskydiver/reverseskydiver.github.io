@@ -19,7 +19,7 @@ export function Header() {
   return (
     <header className="site-header">
       <nav className="nav shell" aria-label="Main navigation">
-        <a className="brand" href="#top" aria-label="Jovan Tomašević, home"><span>JT</span><i /></a>
+        <a className="brand" href="#top" aria-label="Jovan Tomašević, home">Jovan Tomašević</a>
         <div id="nav-menu" className={`nav-links ${open ? 'is-open' : ''}`}>
           {links.map(([id, label]) => <a key={id} className={active === id ? 'active' : ''} href={`#${id}`} onClick={() => setOpen(false)}>{label}</a>)}
         </div>
